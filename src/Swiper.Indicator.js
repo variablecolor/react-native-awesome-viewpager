@@ -62,7 +62,7 @@ class Indicator extends Component {
                 width: 8,
                 borderRadius: 4,
                 opacity,
-                transform:[{scale}],
+                //transform:[{scale}],
                 marginRight: i !== this.props.count - 1 ? 10 : 0
             }
             return <Animated.View key = {i} style = {style}/>
